@@ -1,11 +1,13 @@
 import styles from './alunos.module.css'
 
-function Alunos () {
+function Alunos ({nome='vazio', idade=0, ativo = false}) {
     return (
         <> 
-        <p>Nome: Test</p>
-        <p>Idade: Test</p>
-        <p>Ativo: Test</p>
+        <div className={styles.lista}>
+            <p>Nome: {nome}</p>
+            <p>Idade: {idade}</p>
+            <p>Ativo: {ativo ? 'SIM':'NAO'}</p>
+        </div>
         </>
     )
 }

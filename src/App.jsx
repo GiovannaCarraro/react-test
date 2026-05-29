@@ -1,1 +1,5 @@
-import Alunos ./aluno.jsx
+import Alunos from './components/Alunos/Alunos.jsx'
+
+
+
+

@@ -7,8 +7,7 @@ function App(){
 
 return (
 <>
-{/* <UseStateHook />
-<Contador contador = {}/> */}
+<UseStateHook />
 </>
 
 );

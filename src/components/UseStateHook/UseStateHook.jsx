@@ -5,31 +5,20 @@ import styles from "./UseStateHook.module.css";
 function UseStateHook(){
 
     const [contador, setContador] = useState(0);
- 
-    const atualizarNome = () => {
-        setNome ('Giovanna')
-    }
-
-    const atualizarIdade = () => {
-        setIdade(idade + 1)
-    }
-
-    const verificarEstado = () => {
-        seteFalso(!eFalso)
-    }
 
     return(
-        <div>
-            <p>Nome: {nome}</p>
-            <button onClick={atualizarNome}>Mudar</button>
+        <div className={styles.container}>
+           <h1>{contador}</h1>
 
-            <p>Idade: {idade}</p>
-            <button onClick={atualizarIdade}>Incrementar</button>
+            <button onClick={Aumentar}>+</button>
 
-            <p>É Falso: {eFalso ? 'NÃO': 'SIM'}</p>
-            <button onClick={verificarEstado}>Veriicar</button>
+            <button onClick={Diminuir}>-</button>
+
+            <button onClick={Zerar}>Reiniciar</button>
+
+            <button onClick={Sortear}>Sortear</button>
         </div>
-    )
+    );
 }
 
-export default UseStateHook
+export default UseStateHook;

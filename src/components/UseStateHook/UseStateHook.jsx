@@ -1,12 +1,11 @@
 import { useState } from "react"
+import styles from "./UseStateHook.module.css";
+
 
 function UseStateHook(){
 
-    const [nome, setNome] = useState('Clique em mudar');
-    const [idade, setIdade] = useState(0);
-    const [eFalso, seteFalso] = useState(false);
-    
-
+    const [contador, setContador] = useState(0);
+ 
     const atualizarNome = () => {
         setNome ('Giovanna')
     }

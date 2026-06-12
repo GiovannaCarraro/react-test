@@ -6,3 +6,18 @@
     margin-top: 50px;
 }
 
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    background: #1e293b;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: rgb(10, 119, 119);
+}

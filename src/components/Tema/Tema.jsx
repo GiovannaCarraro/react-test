@@ -63,6 +63,7 @@ return (
             <button onClick={aumentarContador}>+</button>
             <button onClick={diminuirContador}>-</button>
         </div>
+
         <p>O useEffect observa a variavel <strong>contador</strong> 
         e executa sempre que ela muda. </p>
       </section>
@@ -85,7 +86,7 @@ return (
       {/* Caso 3: Alternância de tema */}
       <section className={styles.card}>
         <h2>3. Alternancia de tema (useState)</h2>
-        <button onClick={alternarTema} className={styles.botao}>
+        <button onClick={alternarTema} className={styles.botoes}>
             Alternar para tema {temaEscuro ? "Claro" : "Escuro"}
         </button>
         <p>

@@ -13,11 +13,11 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: all 0.2s ease;
-    background: #1e293b;
+    background: #0077ff;
     color: white;
 }
 
 button:hover {
     transform: scale(1.05);
-    background: rgb(10, 119, 119);
+    background: #005fcc;
 }

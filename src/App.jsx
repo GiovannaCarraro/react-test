@@ -4,14 +4,14 @@ import UseStateHook from "./components/UseStateHook/UseStateHook.jsx";
 import Contador from "./components/Contador/Contador.jsx";
 import UseEffectHook from "./components/UseEffectHook/UseEffectHook.jsx";
 import Tema from "./components/Tema/Tema.jsx"
-
+import ConsultaApiBtn from "./components/ConsultaApiBtn/ConsultaApiBtn.jsx";
 
 function App(){
 
 return (
 <>
 {/* <UseEffectHook></UseEffectHook> */}
-<Tema></Tema>
+<ConsultaApiBtn></ConsultaApiBtn>
 </>
 
 );
